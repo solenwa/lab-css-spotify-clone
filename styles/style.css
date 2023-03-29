@@ -6,3 +6,207 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* CSS RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS RESET*/
+
+.body {
+    width: 100vw;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #1a1a1a;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 2vw;
+    font-size: 1.3rem;
+}
+
+.header-logo {
+    height: 6vh;
+}
+
+.nav-bar {
+    width: 30vw;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.banner {
+    background-image: url('/images/landing.jpg');
+    height: 90vh;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    font-size: 4.5rem;
+    padding: 3%;
+}
+
+.banner h3 {
+    font-size: 1.8rem;
+    width: 60%;
+}
+
+.whats-on {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3vh 0 0 0;
+}
+
+.whats-on-title {
+    font-size: 2rem;
+    border-bottom: solid #00B172 4px;
+    padding: 1.5%;
+    font-weight: 550;
+}
+
+.whats-on-containers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5%;
+}
+
+.whats-on-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15%;
+    gap: 15%;
+}
+
+.img-container {
+    height: 10vh;
+}
+
+.whats-on-box h3 {
+    color: #00B172;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 10% 0;
+}
+
+.how-it-works {
+    margin: 1% 5%;
+    background-color: #00B172;
+    display: flex;
+
+}
+
+.how-it-works-img {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 5%;
+    padding-top: 12%;
+}
+
+.how-it-works-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    padding: 5%;
+}
+
+.how-it-works-text h2 {
+    font-size: 2rem;
+    border-bottom: solid white 4px;
+    padding: 5% 0 2% 0;
+}
+
+.banner-left {
+    display: flex;
+}
+
+.subtext div {
+    margin: 5% 10% 5% 0;
+}
+
+.subtext h3 {
+    font-size: 1.5rem;
+    padding-bottom: 5%;
+    font-weight: 650;
+}
+
+
+.subtext p {
+    font-size: 1.5rem;
+    line-height: 4vh;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+}
